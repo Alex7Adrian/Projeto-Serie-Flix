@@ -1,0 +1,11 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar o arquivo de configuração do sistema (macOS)
+.DS_Store
+
+# Ignorar o arquivo de lock do npm
+package-lock.json

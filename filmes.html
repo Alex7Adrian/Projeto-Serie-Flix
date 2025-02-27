@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sessaofilmes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nome text-center">
+        <h1>SessãoFlix</h1>
+        
+    </div>
+    <nav class="navbar  navbar-expand-lg sticky-top Pcor rounded-pill">
+        <div class="container-md">
+            <a class="navbar-brand text-light" href="/">SessãoFlix</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Lançamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="/filmes">Filmes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Séries</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Gêneros
+                        </a>
+                        <ul class="dropdown-menu bg-dark bg-gradient">
+                            <li><a class="dropdown-item text-light" href="#">Animaçãoes</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Comedia</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Drama</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Terror</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Documentarios</a></li>
+                            <li><a class="dropdown-item text-light" href="#">ficção Cientifica</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                    <button type="button" class="btn btn-dark "><i class="bi bi-search text-light fs-5"></i></button>
+                    
+                    
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <div class="container text-light">
+        <h2>FILMES</h2>
+       
+    </div>  
+    <div class="text-lg-end">
+        <a href="" class="ver link-light link-offset-2 link-underline-opacity-0 ">ver mais</a>
+    </div>
+    <div class="owl-carousel owl-theme">
+    
+        <div class="item"><img src="assets/img/6Qh2MkgbuMo11eMzMDlRfeYjJHV.jpg" class="img-fluid rounded efeitos" alt="Filme 1"></div>
+        <div class="item"><img src="assets/img/7ERTRd45TnRUjNRptxjUIU7jQSE.jpg" class="img-fluid rounded efeitos" alt="Filme 2"></div>
+        <div class="item"><img src="assets/img/34jBcYFkTprHuICixNTrRCqXvLH.jpg" class="img-fluid rounded efeitos" alt="Filme 3"></div>
+        <div class="item"><img src="assets/img/3dx1yPdVzxEr6rMn4cVSiljk1kX.jpg" class="img-fluid rounded efeitos" alt="Filme 4"></div>
+        <div class="item"><img src="assets/img/3HeKb5H89HjzWTkVkAqomu9mek.jpg" class="img-fluid rounded efeitos" alt="Filme 5"></div>
+        <div class="item"><img src="assets/img/3kQ7NoZ67nSRgLP87vmjc65g2a4.jpg" class="img-fluid rounded efeitos" alt="Filme 6"></div>
+    </div>
+    
+
+
+    <!-- Jquery e Owl Carousel -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+<footer> 
+    <div class="card text-center corp">
+        <div class="card-body">
+          <h5 class="card-title text-light">FIM DA SESSÃO</h5>
+          <p class="card-text text-light">Navegue pelo nosso site e assista filmes e séries gratis de alta qualidade.</p>
+          <a href="#" class="text-light">Politica de Privacidade</a>
+        </div>
+        <div class="card-footer text-body-secondary text-light">
+            © Copyright 2025 sessaoflix.com A maior e melhor comunidade de streaming do Brasil! Todos os direitos reservado.
+        </div>
+      </div>
+</footer>
+</html>

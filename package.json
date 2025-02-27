@@ -1,0 +1,17 @@
+{
+  "name": "sessaoflix",
+  "version": "1.0.0",
+  "description": "site de series",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ALEX",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
+}

@@ -1,0 +1,49 @@
+body{
+    background-image:linear-gradient( black,rgba(255, 0, 191, 0.349),black);
+}
+h1{
+    color: rgba(255, 0, 191, 0.384) ;
+}
+.Pcor{
+    background-color: rgba(255, 0, 191, 0.384);
+    
+}
+.corp{
+    background-color: rgba(0, 0, 0, 0.301);
+}
+.efeitos:hover{
+    cursor: pointer;
+    transition-duration: 1s;
+    transform: scale(1.1,1.1);
+
+}
+.ver{
+    font-size: 18px;
+    padding-right: 12px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;  /* Impede o overflow horizontal */
+  }
+  
+  .container {
+    max-width: 100%;
+    padding-right: 15px;  /* Ajusta a largura para garantir que a barra lateral não cause overflow */
+  }
+  
+  .card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  /* Adicionando margem inferior para evitar que o conteúdo se sobreponha */
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .nome {
+    margin-bottom: 20px; /* Espaço entre o título e o conteúdo */
+  }
+  
